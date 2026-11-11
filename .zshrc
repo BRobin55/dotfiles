@@ -76,3 +76,5 @@ __shell_setup() {
 
 __global_setup
 __shell_setup
+
+[ -n "$MX_BIN_DIR" ] && export PATH="$MX_BIN_DIR:$PATH"
